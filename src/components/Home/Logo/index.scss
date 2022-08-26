@@ -1,0 +1,28 @@
+.logo-container {
+    z-index: -1;
+    width: 80%;
+    height: 609px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    
+    svg {
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        transform: rotateZ(-15deg);
+    }
+}
+
+.svg-container {
+    fill:transparent;
+    stroke: #070108;
+    stroke-width: 2;
+    opacity: 0.4;
+
+}
