@@ -16,32 +16,32 @@
         font-weight: 400;
 
         &::before {
-            opacity: 0.6;
             content: '<h1>';
-            font-family: 'La Belle Aurore';
+            font-family: 'La Belle Aurore', cursive;
             color: #fff1ff;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
-            left: 15px;
+            left: -15px;
+            opacity: 0.6;
         }
 
         &::after {
-            opacity: 0.6;
             content: '</h1>';
-            font-family: 'La Belle Aurore';
+            font-family: 'La Belle Aurore', cursive;
             color:#fff1ff;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
             margin-left: 20px;
+            opacity: 0.6;
             animation: fadeIn 1s 3.8s backwards;
         }
 
         img {
-            width: 50px;
             margin-left: 20px;
             opacity: 0;
+            width: 50px;
             height: auto;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
